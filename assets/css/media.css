@@ -1,0 +1,38 @@
+/*MEDIA QUERYS --- RESPONSIVIDADE*/
+
+@media screen and (max-width: 1225px) {
+    .right-content {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1225px) {
+    /* Estilos quando a tela é menor ou igual a 767px */
+    main .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+
+  @media  (min-width: 992px) {
+    .toggle{
+      display: none;
+    }
+  }
+@media (max-width: 1145px){
+  .identity {
+    display: none !important;  
+    }
+  nav #nav-container{
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media (max-width: 992px){
+  .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

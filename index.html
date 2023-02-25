@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-custom">
+    <div class="container-fluid" id="nav-container">
+      <div class="identity">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="logo"></a>
+        <h2 class="logo-name">SPECTRUM</h2>
+      </div>
+      <div class="navigation">
+        <div class="toggle">
+
+          <div class="container" onclick="document.querySelector('.sidebar').classList.toggle('show')"
+            onclick="myFunction(this)" id="btn-toggle">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <!-- <button class="btn btn-sidebar" onclick="document.querySelector('.sidebar').classList.toggle('show')">
+          <img src="assets/img/icon-hamburger.png">
+          </button> -->
+
+          <!-- Sidebar -->
+          <div class="sidebar">
+            <a href="#">Sobre nós</a>
+            <a href="#">Serviços</a>
+            <a href="#">Nossa equipe</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nossa equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="navbar navbar-expand-lg bg-custom">
+    <div class="container-fluid">
+      <div class="md-6">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="logo">
+        </a>
+        <h2 class="logo-name">SPECTRUM</h2>
+      </div>
+      <div class="md-6">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nossa equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav> -->
+  <main>
+    <div class="container-fluid main">
+      <div class="row">
+        <div class="col-md-6 col-sm-10 left-content">
+          <div class="titles">
+            <h1 style="color: #9056E8;">Explore</h1>
+            <h1 style="color: #493A8B;">Spectrum</h1>
+          </div>
+          <div class="container captions">
+            <p class="text-sm left-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Morbi varius, tellus in accumsan blandit,
+            </p>
+            <button type="button" class="btn custom-button">Clique Aqui</button>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <div style="position: relative;">
+            <img src="assets/img/pirâmide.png" style="position: absolute;
+            left: 132px;
+            top: 190px;
+            width: 18rem;;" class="piramide">
+            <img src="assets/img/caracol.png" style="position: absolute;
+            top: -1rem;
+            left: -8rem;
+            height: 44rem;" class="caracol">
+            <img src="assets/img/piramide-fina.png" style="position: absolute;
+            left: 132px;
+            top: 190px;
+            width: 18rem;;" class="piramide-fina">
+          </div>
+          <!-- <div class="d-flex flex-wrap images-home">
+            <img src="assets/img/pirâmide.png" class="piramide">
+            <img src="assets/img/caracol.png"  class="piramide-fina">
+            <img src="assets/img/piramide-fina.png" style=" left: 643px;
+            top: 99px; width: 55rem; height: 60rem;" class="img-fluid caracol">
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div class="about-us">
+    <div class="col-md-6 about-us-image-section">
+      <a href="#"><img class="img-fluid logo-about" src="assets/img/logo.png"></a>
+    </div>
+    <div class="col-md-6 about-us-text-section">
+      <div class="about-us-text">
+        <div class="title">
+          <img class="seta-esquerda" src="assets/img/seta-esquerda.png">
+          <h1 style="color: #9056E8;">
+            Sobre nós
+          </h1>
+          <img class="seta-direita" src="assets/img/seta-direita.png">
+        </div>
+        <p>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen.
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <div class="services">
+    <div class="title-services-container">
+      <h1>Serviços</h1>
+      <div class="triangulos-services">
+
+        <img class="img" src="assets/img/design.png" alt="">
+
+        <img class="img2" src="assets/img/web - Copia.png" alt="">
+
+        <img class="img" src="assets/img/mobile.png" alt="">
+
+      </div>
+  <!--
+        <div class="triangulos-services">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <img src="assets/img/design.png" alt="">
+
+
+
+          </div>
+          <div class="carousel-item">
+
+            <img src="assets/img/web.png" alt=""> </div>
+          <div class="carousel-item">
+            <img src="assets/img/mobile.png" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon left-arrow" aria-hidden="true"> </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon right-arrow" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <div class="container">
+    <div class="equipe">
+
+      <div class="d-flex justify-content-center align-items-center title-equipe">
+        <h1>Equipe</h1>
+      </div>
+      <div class="d-flex justify-content-center align-items-center equipe-line-1">
+
+        <div class="col-md-3 col-sm-10">
+          <div class="d-flex justify-content-center align-items-center flex-column card-equipe">
+            <div class="d-flex justify-content-center align-items-center rounded-circle">
+              <img src="assets/img/gabriel-image.jpg" class="img-fluid rounded-circle profile-picture"
+                alt="Descrição da imagem">
+            </div>
+            <div class="text-card">
+              <h1>Gabriel Araujo</h1>
+              <p>Dev front-end e back-end</p>
+
+            </div>
+            <div class="icons-card">
+              <img src="assets/img/linkedln-icon.png" class="img-fluid icon" alt="Descrição da imagem">
+              <img src="assets/img/github-icon.png" class="img-fluid icon" alt="Descrição da imagem">
+              <img src="assets/img/instagram-icon.png" class="img-fluid icon" alt="Descrição da imagem">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center equipe-line-2">
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-equipe">
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center contato">
+      <div class="col-lg-6 col-md-4 col-sm-1 image-contato">
+        <img class="img-fluid contato-image" src="assets/img/contato-image.png" alt="">
+      </div>
+      <div class="col-lg-6 col-md-8 col-sm-11 container-contato">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card border-0 shadow rounded-3 my-5 form-container">
+            <div class="d-flex justify-content-center align-items-center flex-column card-body p-4 p-sm-5 form-box">
+
+              <div class="texts">
+                <h1>Nos envie uma mensagem!</h1>
+
+              </div>
+
+              <form>
+                <div class="form-floating mb-3 formulario">
+
+                  <input type="text" class="input-name" id="floatingInput" placeholder="Digite seu nome">
+
+                </div>
+                <div class="form-floating mb-3">
+
+                  <input type="email" class="input-email" id="floatingPassword" placeholder="Digite seu email">
+
+                </div>
+
+                <div class="form-floating mb-3">
+
+                  <input type="text" class="input-assunto" id="floatingPassword" placeholder="Digite o assunto">
+
+                </div>
+
+                <div class="form-floating mb-3">
+
+                  <input type="textarea" class="input-msg" placeholder="Deixe sua mensagem">
+
+                </div>
+
+
+                <div class="d-flex justify-content-center align-items-center">
+                  <button class="btn btn-primary btn-login text-uppercase fw-bold btn-entrar" type="submit">
+                    Enviar
+                  </button>
+                </div>
+              
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+  integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="assets/js/javascript.js"></script>
+
+</html>
