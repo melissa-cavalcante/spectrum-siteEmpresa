@@ -47,19 +47,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre nós</a>
+              <a class="nav-link" id="Sobre-menu" href="#Sobre">Sobre nós</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Serviços</a>
+              <a class="nav-link" id="Serviços-menu" href="#Serviços" >Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nossa equipe</a>
+              <a class="nav-link" id="equipe-menu" href="#equipe">Nossa equipe</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" id="Contato-menu" href="#Contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -146,7 +146,7 @@
       <div class="about-us-text">
         <div class="title">
           <img class="seta-esquerda" src="assets/img/seta-esquerda.png">
-          <h1 style="color: #9056E8;">
+          <h1 class="sobre" id="Sobre" style="color: #9056E8;">
             Sobre nós
           </h1>
           <img class="seta-direita" src="assets/img/seta-direita.png">
@@ -163,13 +163,16 @@
   <div class="services">
     <div class="title-services-container">
       <h1>Serviços</h1>
-      <div class="triangulos-services">
 
-        <img class="img" src="assets/img/design.png" alt="">
+      <img src="assets/img/caracol-servicos.png" class="fundo">
 
-        <img class="img2" src="assets/img/web - Copia.png" alt="">
+        <div class="triangulos-services">
 
-        <img class="img" src="assets/img/mobile.png" alt="">
+          <img class="img1" src="assets/img/design2.png" alt="">
+
+          <img class="img2" src="assets/img/web2.png" alt="">
+
+          <img class="img3" src="assets/img/mobile2.png" alt="">
 
       </div>
   <!--
@@ -214,10 +217,11 @@
   -->
 
   <div class="container">
-    <div class="equipe">
+    <div class="equipe" id="equipe">
+
 
       <div class="d-flex justify-content-center align-items-center title-equipe">
-        <h1>Equipe</h1>
+        <h1 class="Serviços" id="Serviços">Equipe</h1>
       </div>
       <div class="d-flex justify-content-center align-items-center equipe-line-1">
 
@@ -285,7 +289,7 @@
   <div class="container">
     <div class="d-flex justify-content-center align-items-center contato">
       <div class="col-lg-6 col-md-4 col-sm-1 image-contato">
-        <img class="img-fluid contato-image" src="assets/img/contato-image.png" alt="">
+        <img class="Contato" id="Contato" class="img-fluid contato-image" src="assets/img/contato-image.png" alt="">
       </div>
       <div class="col-lg-6 col-md-8 col-sm-11 container-contato">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">

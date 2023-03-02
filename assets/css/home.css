@@ -20,7 +20,7 @@ html {
 
 body{
     background-color: #eeeeee;
-    background-image: url('../img/caracol-services.png');
+    /*background-image: url('../img/caracol-services.png');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -180,10 +180,11 @@ main .left-content{
     align-items: center;
 
 }
-
+/*
 main .right-content{
 
-}
+}*/
+
 .custom-button {
     background-color: #493A8B;
     border-radius: 30px;
@@ -346,7 +347,21 @@ main .right-content{
     justify-content: center;
     margin-bottom: -130px;
   }
-  */
+ 
+
+.services{
+  background-image: url('../img/caracol-servicos.png');
+}
+
+background-image{
+  filter: blur(80px);
+}
+ */
+
+ .fundo{
+  position: absolute;
+ }
+
 .title-services-container h1 {
     color: #9056E8;
     font-weight: bold;
@@ -356,17 +371,29 @@ main .right-content{
     display: flex;
 }
 
+.fundo{
+  filter: blur(280px);
+}
+
   .triangulos-services{
     display: flex;
     justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 570px;
   }
-  .triangulos-services > .img {
+  .triangulos-services > .img1 {
     margin: 0 -368px;
 }
 .triangulos-services .img2 {
   margin-top: 153px;
   margin-bottom: -157px;
 }
+
+.triangulos-services > .img3 {
+  margin: 0 -368px;
+}
+
   /*
   .services-triangulo1-baixo, .services-triangulo2-cima, .services-triangulo3-baixo{
     height: 31.25rem;
@@ -393,8 +420,7 @@ main .right-content{
 /*EQUIPE*/
 
 .equipe{
- 
-  margin-top: 150px;
+  margin-top: 1000px;
   margin-left: 200px;
 }
 .equipe .title-equipe h1{
@@ -410,9 +436,10 @@ color: #9056E8;
 .equipe .title-equipe {
   margin-right: 32px;
 }
+/* 
 .equipe .equipe-line-1 , .equipe-line-2{
-  /* margin-left: 63px; */
-}
+  margin-left: 63px; 
+}*/
 
 .equipe .card-equipe {
   width: 14.875rem;
