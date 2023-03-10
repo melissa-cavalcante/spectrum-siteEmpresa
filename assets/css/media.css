@@ -7,6 +7,10 @@
   }
 
   @media screen and (max-width: 1225px) {
+    
+  }
+
+  @media screen and (max-width: 1225px) {
     /* Estilos quando a tela é menor ou igual a 767px */
     main .left-content {
         display: flex;

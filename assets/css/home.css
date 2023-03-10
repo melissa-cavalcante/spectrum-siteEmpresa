@@ -137,13 +137,11 @@ main{
   height: 100vh;
 }
 main .titles{
-    position: absolute;
-    width: 30rem;
-    height: 11.75rem;
-    left: 6rem;
-    top: 15rem;
-    
-    
+  position: absolute;
+  width: 30rem;
+  height: 11.75rem;
+  left: 6rem;
+  top: 15rem;
 }
 
 main .titles h1{
@@ -155,11 +153,11 @@ main .titles h1{
     margin: 0;
 }
 main .captions{
-    position: absolute;
-    width: 32.5rem;
-    height: 4.5rem;
-    left: 5.6rem;
-    top: 29.3rem;
+  position: absolute;
+  width: 32.5rem;
+  height: 4.5rem;
+  left: 5.6rem;
+  top: 28rem;
 }
 main .captions p{
     font-family: 'Allerta';
@@ -186,30 +184,56 @@ main .right-content{
 }*/
 
 .custom-button {
-    background-color: #493A8B;
-    border-radius: 30px;
-    height: 63px;
-    width: 212px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 23px;
-    color: #fff;
-    transition: all 0.3s ease;
-    margin-top: 25px;
-    margin-left: 0;
+  background-color: #493A8B;
+  border-radius: 30px;
+  height: 63px;
+  width: 212px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-top: 45px;
+  margin-left: 0;
   }
   
   .custom-button:hover {
-    background-color: #9056E8;
-    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    height: 63px;
+    width: 212px;
+    border-radius: 30px;
+
+    border: 5px solid #83EAFD;
+    box-sizing: border-box;
+
+    position: absolute;
+
+    /* blue/300 */
+    transform: rotate(-10.03deg);
   }
  
   main .images-home{
     position: relative;
 
   }
+
+.caracol{
+  position: absolute;
+  top: -3rem;
+  left: -8rem;
+  height: 814.17px;
+  width: 953.51px;
+  transform: translateX(10%);
+}
+
   .piramide {
     animation: float 3s ease-in-out infinite;
+    height: 514.63px;
+    width: 496.67px;
+    position: absolute;
+    left: 160px;
+    top: 100px;
   }
   
   @keyframes float {
@@ -225,6 +249,11 @@ main .right-content{
   }
   .piramide-fina {
     animation: float 3s ease-in-out infinite;
+    height: 514.63px;
+    width: 496.67px;
+    position: absolute;
+    left: 160px;
+    top: 100px;
   }
   
   @keyframes float {
@@ -242,18 +271,18 @@ main .right-content{
   /*SOBRE NÓS*/
 
   .about-us{
+    margin-top: 60px;
+    margin-bottom: 160px;
     display: flex;
     height: 640px;
     align-items: center;
   }
 
   .about-us .logo-about{
+    margin-top: 265px;
     height: 27rem;
     width: 31rem;
-    
     margin-left: 7rem;
-    
-    
   }
   .about-us .title h1{
     font-family: 'Poppins';
@@ -277,6 +306,7 @@ main .right-content{
   }
 
   /* .about-us .about-us-text .seta-esquerda{
+    1660x900
     position: absolute;
     height: 40px;
     width: 40px;
@@ -300,15 +330,15 @@ main .right-content{
   
 
   .about-us .about-us-text{
+    margin-top: 150px;
     height: 359px;
-    width: 720px;
+    width: 686px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    
   }
   .about-us-image-section{
     margin-bottom: 18rem;
@@ -358,9 +388,6 @@ background-image{
 }
  */
 
- .fundo{
-  position: absolute;
- }
 
 .title-services-container h1 {
     color: #9056E8;
@@ -371,16 +398,15 @@ background-image{
     display: flex;
 }
 
-.fundo{
-  filter: blur(280px);
-}
 
   .triangulos-services{
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     position: absolute;
     align-items: center;
-    margin-left: 570px;
+    margin-left: 354px;
+    /*margin-left: 570px;*/
   }
   .triangulos-services > .img1 {
     margin: 0 -368px;
@@ -624,4 +650,73 @@ input:focus {
 .sidebar a {
   display: block;
   margin-bottom: 15px;
+}
+
+.services-equipe-projeto{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('../img/teste2.svg');
+}
+
+.projetos > h1{
+  font-family: 'Poppins';
+
+  font-weight: bolder!important;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #9056E8;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.textos > h2{
+  font-family: 'Poppins';
+
+  font-weight: bolder!important;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #9056E8;
+  margin-top: 150px;
+  display: flex;
+  vertical-align: middle; 
+}
+
+#prototipo{
+  width: 50rem;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.getto{
+  display: flex;
+  align-items: center;
+}
+
+.p{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 100px;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: #493A8B;
+}
+
+.pe{
+  font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #9056E8;
+border:   
 }
